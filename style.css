@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #242424;
+  font-family: sans-serif;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.first-brand {
+  z-index: 9;
+  width: 30rem;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+main {
+  display: block;
+  background-color: #FFF;
+}
+
+.container {
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.description {
+  color: #fff;
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+span {
+  padding: 5px;
+}
+
+button {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #1F2230;
+  z-index: 50;
+  background-color: #F1BA29;
+  border: none;
+  margin-top: 100px;
+  padding: 10px 20px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section.module p {
+  margin-bottom: 40px;
+}
+
+section.module:last-child {
+  margin-bottom: 0;
+}
+
+section.module h2 {
+  font-size: 30px;
+}
+
+section.module p {
+  padding: 0;
+  margin: 15px 0;
+}
+
+section.module.content {
+  padding: 40px 0;
+  background-color: #F1BA29;
+}
+
+section.module.parallax {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh !important;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+section.module.parallax:after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 8;
+  background: -moz-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 40%, #000 100%);
+  background: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 40%, #000 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 40%, #000 100%);
+}
+
+
+section.module.parallax-1 {
+  background-image: url("/assets/01.png");
+}
+
+section.module.parallax-2 {
+  background-image: url("/assets/02.png");
+}
+
+section.module.parallax-3 {
+  background-image: url("/assets/03.png");
+}
+
+section.module.parallax-4 {
+  background-image: url("/assets/04.png");
+}
+
+section.module.parallax h1 {
+  color: #F1BA29;
+  text-align: center;
+  font-size: 3rem;
+  z-index: 50;
+  text-transform: uppercase;
+}
+
+section.module.parallax .service {
+  width: 100% !important;
+  z-index: 50;
+  color: #fff;
+  justify-content: space-around;
+}
+
+label {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.last-brand {
+  z-index: 9;
+  width: 10rem;
+}
+
+.contact {
+  z-index: 50;
+  color: #fff;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.card {
+  border: none;
+  margin: 3px;
+}
